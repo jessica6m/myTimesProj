@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.nav-logo {
+  padding-left: 20px;
+}
+
+.main-nav, .main-nav-list {
+  display: flex;
+  font-weight: bold;
+  font-family: 'Veranda', sans-serif;
+}
+
+.main-nav-title {
+  display: flex;
+  align-items: center;
+  color: MediumAquamarine;
+  padding-left: 5px;
+}
+
+.main-nav {
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+
+.main-nav-list {
+  margin-left: auto;
+  align-items: center;
+}
+
+.main-nav-links {
+  padding: 15px;
+  color: black;
+}
